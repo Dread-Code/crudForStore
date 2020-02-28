@@ -13,7 +13,7 @@ GET by name host/api/products/name/:name obtiene un item por su nombre
 PUT by name host/api/products/name/:name actualiza un item por su nombre
 
 Host de desarrollo: localhost:3000
-Host produccion: 
+Host produccion:  https://crudenewstore.herokuapp.com
 Para instalar dependencias:
 ```````````
 npm instal
