@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use(require('./routes/routes'));
 
 // connection to DB 
-mongoose.connect('mongodb://localhost:27017/dbstore',
+mongoose.connect(process.env.urlDB,
             {useNewUrlParser: true,useUnifiedTopology: true,useCreateIndex:true},
                 
             (err,res)=>{
